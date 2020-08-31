@@ -1,0 +1,60 @@
+
+
+
+body {
+    margin: 0px;
+    /* background-image: url(https://homefinder.com.my/wp-content/uploads/2016/03/marvel_superheroes.jpg); */
+}
+
+/* h2 {
+    font-size: 5rem;
+    /* color: rgb(216, 29, 29); */
+    
+    /* background: rgba(0, 0, 0, 0.5); //Black background with 0.5 opacity */
+  
+/* } */ 
+
+#heading {
+  font-size: 2.4rem;
+  color: palevioletred;
+  text-align: center;
+}
+
+#search-bar {
+    height: 48px;
+    width: 30%;
+    
+    margin-top: 2%;
+    margin-left: 34%;
+    padding-left: 1%;
+    
+    color: black;
+    font-size: 2rem;
+    border-radius: 1%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+#suggestions {
+
+height: auto;
+width: 28%;
+/* text-align: center; */
+padding-left: 1%;
+
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 34%;
+background-color: khaki;
+
+
+}
+/* button {
+    height: 7%;
+    width: 20%;
+    font-size: 1.3rem;
+    margin-left: 40%;
+    border-radius: 2%;
+    color: white;
+    border: none;
+    background-color: rgb(168, 119, 168);
+} */
