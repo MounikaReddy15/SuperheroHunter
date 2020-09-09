@@ -14,7 +14,7 @@ const searchHero = async searchName => {
      const regex = new RegExp(`^${searchName}`, 'gi');
      return hero.name.match(regex);
  });
-//  console.log(matches);
+ console.log(matches);
 
 // if(searchName.length === 0 ) {
 //     matches = [];
@@ -45,7 +45,7 @@ const displayData = (matches) => {
         const html = matches.map(match => `
          
        <div>
-            <h4><a href="super.html"> ${match.name} </a></h4>
+            <h4><a href="hero.html?name=${match.name}" > ${match.name} </a></h4>
          
         <button style="color:blue; height:25px; margin-left:100px; "
          onclick = "favouriteList(${match.id})" > Add to Favorites </button>
@@ -56,12 +56,6 @@ const displayData = (matches) => {
         suggestion.innerHTML = html;
     }
 };
-
-
-
-
-
-
 
 
 search.addEventListener('keyup', () => searchHero(search.value));

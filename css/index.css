@@ -38,16 +38,22 @@ body {
 #suggestions {
 
 height: auto;
-width: 28%;
+width: 29%;
 /* text-align: center; */
 padding-left: 1%;
 
 font-family: Arial, Helvetica, sans-serif;
 margin-left: 34%;
-background-color: khaki;
+
+background-color: rgb(235, 235, 208);
 
 
 }
+
+#suggestions a{
+    text-decoration: none;
+}
+
 /* button {
     height: 7%;
     width: 20%;
@@ -58,3 +64,16 @@ background-color: khaki;
     border: none;
     background-color: rgb(168, 119, 168);
 } */
+
+
+button {
+    position: absolute;
+    margin-top: -3.1%;
+    right: 40%;
+    border: none;
+    background: none;
+}
+
+button:hover {
+    background-color: rgb(228, 139, 107);
+  }
